@@ -4,3 +4,14 @@ git commit -m "First commit: Hello Gundars"
 git branch -M main
 git remote add origin https://github.com/gundars-o/webpack.git
 git push -u origin main
+
+branch main
+Installing globally locks you down to a specific version of webpack and could fail in projects that use a different version.
+    npm uninstall -g webpack
+Install node modules and package.json
+    npm init
+Webpack Local Installation:
+    npm install --save-dev webpack
+git add .
+git commit -m "Installed webpack locally"
+git push

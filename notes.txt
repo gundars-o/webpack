@@ -15,3 +15,12 @@ Webpack Local Installation:
 git add .
 git commit -m "Installed webpack locally"
 git push
+
+branch main
+node app.js
+    > Hello Gundars
+Run in browser http://127.0.0.1:5500/index.html
+    > require is not defined app.js:1
+git add .
+git commit -m "Run with node.js"
+git push

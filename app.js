@@ -1,2 +1,2 @@
-var h1 = document.querySelector( "h1" );
-h1.textContent = sayHello( "Gundars" );//"Hello world!";
+var name = require( "./name" );
+console.log( "Hello " + name.name );
